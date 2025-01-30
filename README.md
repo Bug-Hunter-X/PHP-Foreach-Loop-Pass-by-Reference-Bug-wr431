@@ -1,0 +1,1 @@
+This repository demonstrates a common error in PHP when using pass-by-reference in foreach loops.  The code in `bug.php` shows how modifying the values within the foreach loop unexpectedly alters the original array. The solution in `bugSolution.php` demonstrates using a `clone` for correct behavior.
